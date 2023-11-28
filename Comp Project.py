@@ -12,25 +12,6 @@ root.geometry("450x300")
 
 # create class that display our names
 class Student:
-    def display_names(self):
-        frame1 = tk.Frame(root, bg="lightblue", padx=10, pady=10)
-        frame1.pack(side=tk.BOTTOM, fill=tk.X, expand=True)
-        l1 = tk.Label(frame1, text='Student names: \nJumanah Alhareth CF10', bg='lightblue', width=30, font='times')
-        l1.pack()
-        l2 = tk.Label(frame1, text='Habiba Alsubiani CF10', bg='lightblue', width=30, font='times')
-        l2.pack()
-        l3 = tk.Label(frame1, text='Raneem Alhajri CF10', bg='lightblue', width=30, font='times')
-        l3.pack()
-        l4 = tk.Label(frame1, text='Maha Alsuhayan CF10', bg='lightblue', width=30, font='times')
-        l4.pack()
-        l5 = tk.Label(frame1, text='Rahaf Bin Libdah CF10', bg='lightblue', width=30, font='times')
-        l5.pack()
-
-
-x = Student()
-x.display_names()  # display the function
-
-
 # defining the password function
 def check_password():
     password = password_entry.get()
