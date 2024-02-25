@@ -1,0 +1,1 @@
+A python project I worked on in the my first year of uni. Very simple and easy, it represents a bank account, which the user enters their personal information. If they are correct; it then moves to the next page which it allows the user to deposit or withdraw money, and lastly displays the remaining amount left with the personal info displayed.
